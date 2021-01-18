@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+} /* to remove the top and left whitespace */
+
+html,
+body {
+  font-family: Arial, "Helvetica Neue", "Neue Helvetica", sans-serif;
+  font-weight: 800;
+  font-size: 10em;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+canvas {
+  display: block;
+} /* To remove the scrollbars */
+
+/* to show the canvas bounds */
+canvas {
+  background: #000;
+}
